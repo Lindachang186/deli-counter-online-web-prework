@@ -15,7 +15,6 @@ end
 
 def take_a_number(katz_deli)
   #katz deli should now be an array of ticket numbers
-  ticket = katz_deli.size + 1
   katz_deli.push(ticket)
   puts ("Welcome, you are ticket number #{ticket} is and you are number #{katz_deli.size} in line.")
 end
