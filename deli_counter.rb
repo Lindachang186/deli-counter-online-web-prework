@@ -12,7 +12,7 @@ def line(katz_deli)
 end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli)
   katz_deli.push(name)
   puts ("Welcome, #{name}. You are number #{katz_deli.size} in line.")
 end
@@ -26,6 +26,6 @@ def now_serving(katz_deli)
 end
 
 line = []
-take_a_number(line, "Linda")
-take_a_number(line, "Cernan")
+take_a_number(line)
+take_a_number(line)
 now_serving(line)
