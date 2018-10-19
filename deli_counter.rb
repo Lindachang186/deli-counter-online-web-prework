@@ -1,6 +1,5 @@
 # Write your code here.
 katz_deli = []
-$ticket = 1
 
 def line(katz_deli)
   if katz_deli.size === 0
