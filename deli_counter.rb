@@ -17,7 +17,7 @@ def take_a_number(katz_deli)
   #katz deli should now be an array of ticket numbers
   katz_deli.push($ticket)
   puts ("Welcome, you are ticket number #{$ticket} is and you are number #{katz_deli.size} in line.")
-  $ticket + 1
+  $ticket +=  1
 end
 
 def now_serving(katz_deli)
