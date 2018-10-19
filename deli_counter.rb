@@ -26,3 +26,4 @@ end
 
 line = []
 take_a_number(line, "Linda")
+take_a_number(line, "Cernan")
