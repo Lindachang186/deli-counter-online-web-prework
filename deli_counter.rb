@@ -31,4 +31,4 @@ line = []
 take_a_number(line)
 #Welcome you are ticket number 1 and you are number 1 in line.
 take_a_number(line)
-#now_serving(line)
+now_serving(line)
