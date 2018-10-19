@@ -20,7 +20,7 @@ end
 def now_serving(katz_deli)
   if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
-  else 
+  else
     puts ("Currently serving #{katz_deli.shift}.")
   end
 end
@@ -28,3 +28,4 @@ end
 line = []
 take_a_number(line, "Linda")
 take_a_number(line, "Cernan")
+now_serving(line)
